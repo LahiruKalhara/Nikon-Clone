@@ -1,0 +1,58 @@
+*{font-family: poppins; margin: 0; padding: 0;}
+
+.headerContainer{display: flex; background-color: rgb(255, 255, 255);}
+.headerContainer ul{display: flex; list-style: none;}
+.headerContainer ul li{margin-right: 4.2em; margin-top: 2em; font-weight: 500; cursor: pointer; transition:150ms ease-in-out;}
+.headerContainer ul li:hover{color: orange;}
+.headerContainer img{margin-top: -1.4em; margin-left: -1em; margin-bottom: -1.1em; position: relative;}
+
+.bodyContainer a{color:rgb(255, 255, 255); text-decoration: none; position: absolute; left:72em; top: 30.5em; color: black; font-weight: 600; font-size: 0.6rem; background-color: rgb(255, 217, 0); padding: 1.3em 4em; transition:150ms ease-in-out;}
+.bodyContainer a:hover{background-color: white; color: orange;}
+
+.bodyContainer2{display: flex;}
+
+.bodyContainer2 .grid1 img{position: relative;}
+.bodyContainer2 .grid1 .line{position: absolute; color: black; background-color: rgb(255, 217, 0); color: rgb(255, 217, 0); margin-left: 15em; top: 473em; font-size: 0.1rem; padding-right: 174em ;}
+.bodyContainer2 .grid1 .p1{font-weight: 600; position: absolute; top: 49.5em; left: 7em;}
+.bodyContainer2 .grid1 .p2{font-size: 0.8rem; font-weight: 500; position: absolute; top: 67em; left: 36em;}
+.bodyContainer2 .grid1 a{color: black; text-decoration: none; font-weight: 600; font-size: 0.8rem; position: absolute; top: 71em; left: 4.5em; background-color:rgb(255, 217, 0); padding: 1em 4.5em; transition: 200ms ease-in-out;}
+.bodyContainer2 .grid1 a:hover{background-color: rgb(255, 241, 196); color: orange;}
+
+.bodyContainer2 .grid2 img{position: relative;}
+.bodyContainer2 .grid2 .line{position: absolute; color: black; background-color: rgb(255, 217, 0); color: rgb(255, 217, 0); margin-left: 15em; top: 473em; font-size: 0.1rem; padding-right: 174em ;}
+.bodyContainer2 .grid2 .p1{font-weight: 600; position: absolute; top: 49.5em; left: 26.4em;}
+.bodyContainer2 .grid2 .p2{font-size: 0.8rem; font-weight: 500; position: absolute; top: 67em; left: 62em;}
+.bodyContainer2 .grid2 a{color: black; text-decoration: none; font-weight: 600; font-size: 0.8rem; position: absolute; top: 71em; left: 31.5em; background-color:rgb(255, 217, 0); padding: 1em 4.5em; transition: 200ms ease-in-out;}
+.bodyContainer2 .grid2 a:hover{background-color: rgb(255, 241, 196); color: orange;}
+
+.bodyContainer2 .grid3 img{position: relative;}
+.bodyContainer2 .grid3 .line{position: absolute; color: black; background-color: rgb(255, 217, 0); color: rgb(255, 217, 0); margin-left: 15em; top: 473em; font-size: 0.1rem; padding-right: 174em ;}
+.bodyContainer2 .grid3 .p1{font-weight: 600; position: absolute; top: 49.5em; left: 47.4em;}
+.bodyContainer2 .grid3 .p2{font-size: 0.8rem; font-weight: 500; position: absolute; top: 67em; left: 89em;}
+.bodyContainer2 .grid3 a{color: black; text-decoration: none; font-weight: 600; font-size: 0.8rem; position: absolute; top: 71em; left: 57.7em; background-color:rgb(255, 217, 0); padding: 1em 4.5em; transition: 200ms ease-in-out;}
+.bodyContainer2 .grid3 a:hover{background-color: rgb(255, 241, 196); color: orange;}
+
+.bodyContainer2 .grid4 img{position: relative;}
+.bodyContainer2 .grid4 .line{position: absolute; color: black; background-color: rgb(255, 217, 0); color: rgb(255, 217, 0); margin-left: 15em; top: 473em; font-size: 0.1rem; padding-right: 174em ;}
+.bodyContainer2 .grid4 .p1{font-weight: 600; position: absolute; top: 49.5em; left: 67.1em;}
+.bodyContainer2 .grid4 .p2{font-size: 0.8rem; font-weight: 500; position: absolute; top: 67em; left: 9.2em;}
+.bodyContainer2 .grid4 a{color: black; text-decoration: none; font-weight: 600; font-size: 0.8rem; position: absolute; top: 71em; left: 84.5em; background-color:rgb(255, 217, 0); padding: 1em 4.5em; transition: 200ms ease-in-out;}
+.bodyContainer2 .grid4 a:hover{background-color: rgb(255, 241, 196); color: orange;}
+
+.bodyContainer3 .img1{margin-top: 15em; margin-left: 1.5em; margin-right: 1.5em; cursor: pointer;}
+.bodyContainer3 .img2{margin-left: 1.5em; margin-right: 1.5em; cursor: pointer;}
+.bodyContainer3 .img3{margin-left: 1.5em; cursor: pointer;}
+.bodyContainer3 .img4{margin-right: 1.5em; cursor: pointer;}
+.bodyContainer3 .img5{margin-left: 1.5em; position: relative;}
+.bodyContainer3 .img6{margin-right: 1.5em; position: relative;}
+.bodyContainer3 .heading1{position: absolute; top: 59em; left: 3.4em; font-size: 2.5rem;}
+.bodyContainer3 .p1{position: absolute; font-size: 1.5rem; top: 101.5em; left: 11em;}
+.bodyContainer3 .button1{position: absolute; text-decoration: none; color: black; background-color: rgb(255, 217, 0); padding: 0.5em 2em; left: 15.7em; margin-top: 12em; transition: 200ms ease-in-out;}
+.bodyContainer3 .button1:hover{background-color: rgb(255, 237, 204); color: orange;}
+.bodyContainer3 .heading2{position: absolute; top: 59em; right: 4.5em; font-size: 2.5rem;}
+.bodyContainer3 .p2{position: absolute; font-size: 1.5rem; top: 101.5em; right: 8.4em;}
+.bodyContainer3 .button2{position: absolute; text-decoration: none; color: black; background-color: rgb(255, 217, 0); padding: 0.5em 2em; right: 15.5em; margin-top: 12em; transition: 200ms ease-in-out;}
+.bodyContainer3 .button2:hover{background-color: rgb(255, 237, 204); color: orange;}
+
+.bodyContainer,.bodyContainer2,.bodyContainer3{opacity: 0; filter: blur(5px); transform: translateY(10%); transition: all 800ms;}
+.bodyContainer.on,.bodyContainer2.on,.bodyContainer3.on{opacity: 1; filter: blur(0); transform: translateY(0);}
